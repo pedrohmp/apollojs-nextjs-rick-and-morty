@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100vw;
-  height: 100vh;
 
   display: flex;
   justify-content: center;
@@ -10,7 +9,8 @@ export const Container = styled.div`
   flex-direction: column;
 
   h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 120px;
   }
 
   p {

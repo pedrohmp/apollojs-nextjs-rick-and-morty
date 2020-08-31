@@ -13,7 +13,43 @@ export const Row = styled.div`
 
     li {
       margin-top: 19px;
+      display: flex;
+      width: 300px;
+      align-items: center;
+
+      span {
+        width: 100%;
+      }
     }
   }
 `
-export const CharacterBtn = styled.button``
+export const CharacterBtn = styled.button`
+  padding: 10px;
+  background-color: #352c2e;
+  border: 0;
+  color: #ffff;
+  cursor: pointer;
+  outline: unset;
+`
+
+export const Grid = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+`
+
+export const Box = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    height: 100px;
+    width: 100px;
+  }
+
+  p {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+  }
+`
